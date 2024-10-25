@@ -1,0 +1,1 @@
+Registro automotor usando herencia

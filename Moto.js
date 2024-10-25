@@ -29,7 +29,7 @@ var Moto = /** @class */ (function (_super) {
         return _this;
     }
     Moto.prototype.getInfo = function () {
-        return "La moto ".concat(this.getMarca(), " ").concat(this.getModelo(), " de ").concat(this.getPais(), " tiene ").concat(this.getpatente());
+        return "La moto ".concat(this.getMarca(), " ").concat(this.getModelo(), " de ").concat(this.getPais(), " tiene esta patente ").concat(this.getpatente());
     };
     Moto.prototype.getColor = function () {
         return this.color;

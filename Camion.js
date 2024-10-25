@@ -29,7 +29,7 @@ var Camion = /** @class */ (function (_super) {
         return _this;
     }
     Camion.prototype.getInfo = function () {
-        return "El camion ".concat(this.getMarca(), " ").concat(this.getModelo(), " de ").concat(this.getPais(), " tiene ").concat(this.getMatricula());
+        return "El camion ".concat(this.getMarca(), " ").concat(this.getModelo(), " de ").concat(this.getPais(), " tiene esta patente ").concat(this.getMatricula());
     };
     Camion.prototype.getColor = function () {
         return this.color;
